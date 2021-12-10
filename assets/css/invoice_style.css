@@ -1,0 +1,71 @@
+@media print {
+    .page-wrap {border:1px solid #ccc; padding: 25px; margin: 25px;}
+.logo-address img {text-align: left;}
+    .logo-address div {
+        margin-top: 10px;
+         margin-bottom: 20px;
+    }
+    .logo-address {border-bottom: 1px solid #ccc;}
+    .bill-to h5,  .bill-to h4 { margin-top: 15px; margin-bottom: 15px;}
+    .invoice-num  {margin-top: 15px;}
+    .mt-10 {margin-top: 15px;}
+    .dis-flex {display: flex; justify-content: space-between;}
+
+table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    background-color: transparent;
+     display: table;
+     border-spacing: 0;
+    border-collapse: collapse;
+    margin-top: 30px;
+    width: 100%; border:1px solid #ccc;
+}
+  .table  thead {
+    background: #f5f5f5 !important;
+    color: #5785e8 !important;
+}
+    .table>caption+thead>tr:first-child>td, .table>caption+thead>tr:first-child>th, .table>colgroup+thead>tr:first-child>td, .table>colgroup+thead>tr:first-child>th, .table>thead:first-child>tr:first-child>td, .table>thead:first-child>tr:first-child>th {
+    border-top: 0;
+}
+
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+    color: #150aec;
+}
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+    border-color: #eaeaea;
+    padding: 10px;
+}
+.table>thead>tr>th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ddd;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+
+table thead th {
+    border-right: 1px solid #d6d6d6;
+    border-color: #d6d6d6 !important;
+    padding: 15px;
+    color: #2208ff;
+}
+    .text-right {text-align: right}
+.text-left {
+    text-align: left;
+}
+table td {
+    border-right: 1px solid #d6d6d6;
+    padding: 15px;
+}
+    table thead th:last-child {border-right: none;}
+    table tr {border-bottom: 1px solid #ccc;}
+    table tr:last-child{border-bottom: none;}
+    table td:last-child {border-right: none;}
+
+
+}

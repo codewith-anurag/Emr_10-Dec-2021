@@ -1,0 +1,151 @@
+.page-sidebar {
+height: auto;
+width: 260px;
+position: fixed;
+padding: 0px;
+background-color: #ffffff;
+margin-top: 60px;
+overflow: hidden;
+box-shadow: 0 0 0px 0 rgba(33,33,33,.2) !important;
+}
+
+.white-box {
+    background-color: white;
+    box-shadow: 0 1px 2px rgba(0,0,0,.15);
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 4px;
+}
+
+.btn-default {
+    border-color: #150aec !important;
+    background-color: #fff !important;
+    border: 1px solid #150aec !important;
+}
+.text-theme, .fa-star, .btn-default, .iD, .hCl, .hCl1, .hCl2, .hCl3, .head-brick, .menu, .bg-theme-light {
+    color: #150aec !important;
+}
+.btn-default:hover {
+    color: #ffffff !important;
+     background-color: #150aec !important;
+}
+
+.btn-danger {
+    /* border-color: red !important; */
+    background-color: #fff !important;
+    /* border: 1px solid red !important; */
+    color: red !important;
+}
+
+.btn-danger:hover {
+    /* border-color: red !important; */
+    background-color: red !important;
+    /* border: 1px solid red !important; */
+    color: #ffffff !important;
+}
+
+.text-theme, .fa-star, .btn-default, .iD, .hCl, .hCl1, .hCl2, .hCl3, .head-brick, .menu, .bg-theme-light {
+    color: #150aec !important;
+}
+.btn-default:hover {
+    color: #ffffff !important;
+     background-color: #150aec !important;
+}
+
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+button, select {
+    text-transform: none;
+}
+button {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+        font-weight: inherit;
+        font-size: inherit;
+        line-height: inherit;
+        font-family: inherit;
+    margin: 0;
+        margin-bottom: 0px;
+}
+.fa {
+    font-size: 16px;
+    cursor: pointer;
+}
+.fa, .fab, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+.dropdown-menu-right {
+    right: 0;
+    left: none;
+}
+.kpull-left {
+    float: left !important;
+    max-width: 100%;
+    padding-right: 1em;
+}
+.fieldLabelColor, .lbl-color, .color-light, .text-light {
+    color: #666;
+    font-weight: normal;
+}
+
+.row-0:hover, .row-1:hover, .bg55, .recordHead, .menu:hover, .menu2:hover, .menu3:hover, .menu-img:hover, .highlight-hover-link:hover, .highlight-hover:hover, .highlight, .bg-hover:hover, .table-hover > tbody > tr:hover {
+    background-color: #d5f3f2;
+}
+.table-fixed {
+    table-layout: fixed;
+    width: 100%;
+    border-bottom: 0.5px solid #c6cac9;
+    margin-bottom: 5px;
+}
+
+.patient-td{
+	width: 40px;
+	overflow: hidden;
+	font-size: 120%;
+	margin-right: 1em;
+}
+.patient-td-div{
+	width: 39.5px; height: 39.5px; overflow: hidden; margin-right: 15px;
+}
+.container-body{
+	background-color: #ffffff !important;
+}
+.text-light{
+	padding-left: 1em; max-width: 100%; font-size: 90%;
+}
+.patient-image{
+	width: 100%; border-radius: 19.75px;
+}
+.patient-id{
+	white-space: nowrap; text-align: right;
+}
+.patient-name{
+	max-width: 100%; padding-left: 1em;
+}
+.fa-circle{
+	display: none; font-size: 9px; padding-right: 0.5em;
+}
+.word-break{
+	width: 100%;
+}
+.text-primary{
+	font-size: 15px;
+}
+.text-primary {
+    color: #150aec !important;
+}

@@ -1,0 +1,31 @@
+.form-row{
+	margin-bottom: 10px;
+}
+.required{
+	color: red !important;
+}
+.box {
+    background-color: #ffffff;
+    margin: 15px 0;
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+    -webkit-box-shadow: 0 0px 0px rgba(0,0,0,.1) !important;
+    box-shadow: 0 0px 0px rgba(0,0,0,.1) !important;
+}
+.text-field{
+	border-radius: 5px !important;
+}
+.form-label{
+	float: right;
+	margin-bottom: 0;
+	padding-top: 7px;color: #847c7c;
+	font-weight: normal;
+}
+#form-title{
+	color:#150aec;
+	font-family: 'Ubuntu', 'Open Sans', 'Segoe UI Light', 'Segoe UI', 'lucida grande', 'Trebuchet MS', Verdana, Arial, Sans-serif, Helvetica;
+	font-size: 115%;
+	text-align: left;
+	text-transform: uppercase;
+}
